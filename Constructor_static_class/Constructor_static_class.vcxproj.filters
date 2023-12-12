@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Test_Class.cpp">
+      <Filter>class_struct</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Struct.cpp">
+      <Filter>class_struct</Filter>
+    </ClCompile>
+    <ClCompile Include="constructor_class.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test_Class.h">
+      <Filter>class_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Test_Struct.h">
+      <Filter>class_struct</Filter>
+    </ClInclude>
+    <ClInclude Include="constructor_class.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="class_struct">
+      <UniqueIdentifier>{18d779d9-780f-4996-a354-36cfd0c761bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="constructor">
+      <UniqueIdentifier>{9bf52f6c-f9e6-4d41-b837-82529c24411b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
